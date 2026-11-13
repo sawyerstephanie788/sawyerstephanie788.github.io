@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>911吃瓜网 - 全网爆料黑料实时追踪入口，娱乐圈热搜瓜料每日更新</title>
+<meta name="description" content="911吃瓜网聚焦全网明星黑料、猛料与爆料实锤，覆盖娱乐圈热搜瓜料实时更新。用户通过911吃瓜网可免费了解每天最新八卦内幕，911吃瓜网持续提供独家内容。">
+<meta name="keywords" content="911吃瓜网,明星黑料爆料,娱乐圈八卦,热搜瓜料,最新猛料">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="911吃瓜网">
+<link rel="canonical" href="https://www.911chigua.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="911吃瓜网">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="911吃瓜网 - 全网爆料黑料实时追踪入口，娱乐圈热搜瓜料每日更新">
+<meta property="og:description" content="911吃瓜网聚焦全网明星黑料、猛料与爆料实锤，覆盖娱乐圈热搜瓜料实时更新。用户通过911吃瓜网可免费了解每天最新八卦内幕，911吃瓜网持续提供独家内容。">
+<meta property="og:url" content="https://www.911chigua.com/">
+<meta property="og:image" content="https://www.911chigua.com/static/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="911吃瓜网 - 全网爆料黑料实时追踪入口">
+<meta name="twitter:description" content="娱乐圈热搜瓜料每日更新，明星黑料、猛料与爆料实锤实时追踪。">
+<style>
+:root{
+--bg:#0d0f14;
+--bg-soft:#151922;
+--card:#1a1f2b;
+--line:#252c3a;
+--text:#e8ecf4;
+--text-dim:#9aa5b8;
+--accent:#ff5c39;
+--accent-2:#ffb13d;
+--radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+background:var(--bg);
+color:var(--text);
+font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Helvetica Neue",Arial,sans-serif;
+font-size:16px;
+line-height:1.75;
+-webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{width:min(1200px,92%);margin:0 auto}
+.site-header{
+position:sticky;top:0;z-index:50;
+background:rgba(13,15,20,.92);
+backdrop-filter:blur(10px);
+border-bottom:1px solid var(--line);
+}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:14px 0;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:800;letter-spacing:.5px}
+.logo-mark{
+display:inline-flex;align-items:center;justify-content:center;
+width:38px;height:38px;border-radius:11px;
+background:linear-gradient(135deg,var(--accent),var(--accent-2));
+color:#1a1000;font-size:17px;font-weight:900;
+}
+.logo em{font-style:normal;color:var(--accent)}
+.site-nav{display:flex;gap:6px;flex-wrap:wrap}
+.site-nav a{
+padding:8px 14px;border-radius:99px;font-size:15px;color:var(--text-dim);
+transition:color .2s,background .2s;
+}
+.site-nav a:hover{color:#fff;background:rgba(255,92,57,.16)}
+.nav-hot{color:var(--accent)!important;border:1px solid rgba(255,92,57,.45)}
+.hero{
+padding:56px 0 40px;
+background:radial-gradient(900px 340px at 15% 0%,rgba(255,92,57,.20),transparent 62%),
+radial-gradient(700px 300px at 85% 10%,rgba(255,177,61,.13),transparent 60%);
+border-bottom:1px solid var(--line);
+}
+.hero h1{
+font-size:clamp(26px,3.6vw,42px);
+line-height:1.32;font-weight:800;letter-spacing:.5px;
+margin-bottom:14px;
+}
+.hero h1 span{color:var(--accent)}
+.hero p{color:var(--text-dim);max-width:760px;font-size:16px}
+.hero-stats{display:flex;gap:36px;flex-wrap:wrap;margin-top:28px}
+.hero-stats div{min-width:96px}
+.hero-stats strong{display:block;font-size:24px;color:var(--accent-2);font-weight:800}
+.hero-stats span{font-size:13px;color:var(--text-dim)}
+.main-grid{
+display:grid;
+grid-template-columns:minmax(0,1fr) 320px;
+gap:36px;
+padding:44px 0 60px;
+align-items:start;
+}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:20px}
+.section-head h2{font-size:22px;font-weight:800;letter-spacing:.4px}
+.section-head h2::before{
+content:"";display:inline-block;width:5px;height:20px;border-radius:3px;
+background:linear-gradient(180deg,var(--accent),var(--accent-2));
+margin-right:10px;vertical-align:-3px;
+}
+.section-head a{font-size:14px;color:var(--text-dim)}
+.section-head a:hover{color:var(--accent)}
+.card{
+background:var(--card);
+border:1px solid var(--line);
+border-radius:var(--radius);
+padding:22px;
+}
+.hot-list{list-style:none;counter-reset:hot}
+.hot-list li{
+counter-increment:hot;
+display:flex;align-items:flex-start;gap:14px;
+padding:13px 0;border-bottom:1px dashed var(--line);
+}
+.hot-list li:last-child{border-bottom:0;padding-bottom:0}
+.hot-list li::before{
+content:counter(hot);
+flex:0 0 26px;height:26px;border-radius:8px;
+display:inline-flex;align-items:center;justify-content:center;
+font-size:13px;font-weight:800;
+background:rgba(154,165,184,.14);color:var(--text-dim);
+}
+.hot-list li:nth-child(1)::before{background:linear-gradient(135deg,#ff3d3d,#ff8a3d);color:#fff}
+.hot-list li:nth-child(2)::before{background:linear-gradient(135deg,#ff7a2f,#ffc02f);color:#fff}
+.hot-list li:nth-child(3)::before{background:linear-gradient(135deg,#ffb92f,#ffe27a);color:#3a2600}
+.hot-list a{flex:1 1 auto;font-size:15.5px}
+.hot-list a:hover{color:var(--accent)}
+.hot-list .heat{font-size:12.5px;color:var(--text-dim);white-space:nowrap;padding-top:3px}
+.hot-list .tag-new{
+font-size:11px;color:#fff;background:var(--accent);
+border-radius:5px;padding:1px 6px;margin-right:8px;vertical-align:2px;
+}
+.news-list{display:grid;gap:16px;margin-top:8px}
+.news-item{
+background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+padding:20px 22px;transition:transform .18s,border-color .18s;
+}
+.news-item:hover{transform:translateY(-2px);border-color:rgba(255,92,57,.5)}
+.news-meta{display:flex;align-items:center;gap:12px;font-size:12.5px;color:var(--text-dim);margin-bottom:8px;flex-wrap:wrap}
+.news-meta .chip{
+background:rgba(255,92,57,.14);color:var(--accent);
+border-radius:99px;padding:2px 10px;font-size:12px;
+}
+.news-item h3{font-size:17.5px;font-weight:700;line-height:1.5;margin-bottom:8px}
+.news-item h3 a:hover{color:var(--accent)}
+.news-item p{color:var(--text-dim);font-size:14.5px}
+.read-more{display:inline-block;margin-top:12px;font-size:13.5px;color:var(--accent-2)}
+.channel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.channel{
+background:var(--bg-soft);border:1px solid var(--line);border-radius:12px;
+padding:16px;text-align:center;transition:background .2s,border-color .2s;
+}
+.channel:hover{background:rgba(255,92,57,.10);border-color:rgba(255,92,57,.45)}
+.channel strong{display:block;font-size:15.5px;margin-bottom:4px}
+.channel span{font-size:12.5px;color:var(--text-dim)}
+.tag-cloud{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.tag-cloud a{
+font-size:13.5px;color:var(--text-dim);
+border:1px solid var(--line);border-radius:99px;
+padding:6px 14px;transition:all .2s;
+}
+.tag-cloud a:hover{color:#fff;background:rgba(255,92,57,.22);border-color:rgba(255,92,57,.55)}
+.side-card + .side-card{margin-top:20px}
+.side-card h2{font-size:17px;font-weight:800;margin-bottom:14px}
+.rank-mini{list-style:none}
+.rank-mini li{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:14.5px}
+.rank-mini li:last-child{border-bottom:0;padding-bottom:0}
+.rank-mini span{color:var(--text-dim);font-size:12.5px}
+.notice{color:var(--text-dim);font-size:13.5px;line-height:1.9}
+.site-footer{
+border-top:1px solid var(--line);
+background:var(--bg-soft);
+padding:38px 0 26px;
+}
+.footer-top{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;margin-bottom:26px}
+.footer-brand{max-width:420px}
+.footer-brand p{color:var(--text-dim);font-size:13.5px;margin-top:10px}
+.footer-links{display:flex;gap:56px;flex-wrap:wrap}
+.footer-links h3{font-size:14px;font-weight:700;margin-bottom:12px;color:var(--text)}
+.footer-links ul{list-style:none}
+.footer-links li{margin-bottom:8px}
+.footer-links a{font-size:13.5px;color:var(--text-dim)}
+.footer-links a:hover{color:var(--accent)}
+.copyright{
+border-top:1px solid var(--line);padding-top:18px;
+font-size:13px;color:var(--text-dim);
+display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+}
+@media (max-width:980px){
+.main-grid{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:600px){
+.hero{padding:38px 0 30px}
+.hero-stats{gap:22px}
+.site-nav a{padding:6px 10px;font-size:14px}
+.card,.news-item{padding:16px}
+}
+</style>
+<script src="https://cdn.staticsave.com/binglangwang/lidabao442.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="logo" href="#top">
+<span class="logo-mark">911</span>
+<span>911<em>吃瓜</em>网</span>
+</a>
+<nav class="site-nav" aria-label="主导航">
+<a href="#top">首页</a>
+<a href="#hot">今日热搜</a>
+<a href="#latest">最新爆料</a>
+<a href="#channel">分类频道</a>
+<a href="#tags">热门标签</a>
+<a class="nav-hot" href="#latest">吃瓜专区</a>
+</nav>
+</div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="wrap">
+<h1>911吃瓜网 · <span>全网爆料黑料实时追踪入口</span>，娱乐圈热搜瓜料每日更新</h1>
+<p>聚合全网公开渠道的娱乐资讯、热搜话题与网友讨论，为吃瓜爱好者提供一站式爆料追踪入口。今日热搜、明星动态、剧综风向、网红热点，全天候滚动更新，每一颗瓜都为你梳理清时间线与来龙去脉。</p>
+<div class="hero-stats">
+<div><strong>24h</strong><span>实时滚动更新</span></div>
+<div><strong>128+</strong><span>每日新增话题</span></div>
+<div><strong>16</strong><span>垂直吃瓜频道</span></div>
+<div><strong>0 元</strong><span>免费浏览全部内容</span></div>
+</div>
+</div>
+</section>
+
+<div class="wrap main-grid">
+<div class="main-col">
+
+<section id="hot" aria-labelledby="hot-title">
+<div class="section-head">
+<h2 id="hot-title">今日热搜榜</h2>
+<a href="#hot">每 5 分钟刷新</a>
+</div>
+<div class="card">
+<ol class="hot-list">
+<li><a href="#latest">某二字顶流男星深夜现身片场，疑似新剧定妆路透流出</a><span class="heat">热度 128.6万</span></li>
+<li><a href="#latest">热播古装剧男主被曝临时换角，剧方暂未回应</a><span class="heat">热度 96.4万</span></li>
+<li><a href="#latest"><span class="tag-new">新</span>女团成员社交平台清空合照，粉丝猜测组合生变</a><span class="heat">热度 88.1万</span></li>
+<li><a href="#latest">综艺路透曝出嘉宾阵容，多位实力派演员加盟</a><span class="heat">热度 74.3万</span></li>
+<li><a href="#latest">某歌手演唱会加场消息传出，票务平台一度卡顿</a><span class="heat">热度 65.9万</span></li>
+<li><a href="#latest">网红博主直播口误引争议，随后发文致歉</a><span class="heat">热度 54.2万</span></li>
+<li><a href="#latest">都市剧收官收视出炉，结局改编引发原著粉讨论</a><span class="heat">热度 47.8万</span></li>
+<li><a href="#latest">某经纪公司发声明回应合约传闻，强调将依法维权</a><span class="heat">热度 39.5万</span></li>
+</ol>
+</div>
+</section>
+
+<section id="latest" aria-labelledby="latest-title">
+<div class="section-head">
+<h2 id="latest-title">最新爆料</h2>
+<a href="#latest">查看全部</a>
+</div>
+<div class="news-list">
+
+<article class="news-item">
+<div class="news-meta">
+<span class="chip">明星黑料爆料</span>
+<time datetime="2026-11-13">2026-11-13</time>
+<span>阅读 2.4 万</span>
+</div>
+<h3><a href="#latest">片场路透曝光：某二字顶流造型反差大，网友直呼认不出</a></h3>
+<p>今日上午，一组无官方来源的片场路透图在社交平台扩散，画面中演员以全新造型出镜。相关话题在数小时内冲上热搜前列，讨论焦点集中在角色设定与原著还原度。截至发稿，剧组与演员方均未对该组图片作出说明，图片真实性仍有待核实。</p>
+<a class="read-more" href="#latest">继续阅读 →</a>
+</article>
+
+<article class="news-item">
+<div class="news-meta">
+<span class="chip">娱乐圈八卦</span>
+<time datetime="2026-11-13">2026-11-13</time>
+<span>阅读 1.8 万</span>
+</div>
+<h3><a href="#latest">热播剧男主换角传闻升级，制片方回应「以官宣为准」</a></h3>
+<p>围绕某热播古装剧男主角色的替换传闻，今日又出现新的说法。有工作人员在评论区留言后又删除，进一步引发猜测。制片方相关人士仅表示一切以官方公告为准，未对具体人选作出确认，剧集后续拍摄计划暂未受影响。</p>
+<a class="read-more" href="#latest">继续阅读 →</a>
+</article>
+
+<article class="news-item">
+<div class="news-meta">
+<span class="chip">热搜瓜料</span>
+<time datetime="2026-11-12">2026-11-12</time>
+<span>阅读 3.1 万</span>
+</div>
+<h3><a href="#latest">女团成员清空合照引猜测，公司回应「个人账号调整」</a></h3>
+<p>有网友发现某女团成员的社交账号主页合影被批量隐藏，随即出现组合即将调整阵容的说法。所属公司随后回应称属正常的账号内容整理，组合近期行程照常进行，相关猜测并无事实依据。</p>
+<a class="read-more" href="#latest">继续阅读 →</a>
+</article>
+
+<article class="news-item">
+<div class="news-meta">
+<span class="chip">最新猛料</span>
+<time datetime="2026-11-12">2026-11-12</time>
+<span>阅读 9,760</span>
+</div>
+<h3><a href="#latest">新综艺拟邀名单流出，多位实力派演员首次常驻</a></h3>
+<p>网传一档户外真人秀的拟邀名单在论坛流传，名单中包含多位以影视作品为人熟知的演员。节目组尚未公布正式阵容，知情人士提示名单属于早期沟通阶段，最终以官方发布为准。</p>
+<a class="read-more" href="#latest">继续阅读 →</a>
+</article>
+
+<article class="news-item">
+<div class="news-meta">
+<span class="chip">热搜瓜料</span>
+<time datetime="2026-11-11">2026-11-11</time>
+<span>阅读 1.2 万</span>
+</div>
+<h3><a href="#latest">演唱会加场消息传出，官方票务将启用实名核验</a></h3>
+<p>某歌手巡演被曝将在原定场次之外增加演出，消息传出后票价讨论迅速升温。主办方提醒观众通过正规渠道购票，本次演出将加强实名核验与入场管理，避免非授权渠道带来的风险。</p>
+<a class="read-more" href="#latest">继续阅读 →</a>
+</article>
+
+</div>
+</section>
+
+<section id="channel" aria-labelledby="channel-title" style="margin-top:44px">
+<div class="section-head">
+<h2 id="channel-title">分类频道</h2>
+<a href="#channel">全部频道</a>
+</div>
+<div class="channel-grid">
+<a class="channel" href="#latest"><strong>明星黑料</strong><span>动态与争议追踪</span></a>
+<a class="channel" href="#latest"><strong>影视爆料</strong><span>定角 · 路透 · 档期</span></a>
+<a class="channel" href="#latest"><strong>综艺风向</strong><span>阵容与录制花絮</span></a>
+<a class="channel" href="#latest"><strong>音乐现场</strong><span>巡演与舞台话题</span></a>
+<a class="channel" href="#latest"><strong>网红热点</strong><span>直播与社媒争议</span></a>
+<a class="channel" href="#latest"><strong>恋情绯闻</strong><span>同框与传闻梳理</span></a>
+<a class="channel" href="#latest"><strong>合约纠纷</strong><span>经纪与版权动态</span></a>
+<a class="channel" href="#latest"><strong>红毯造型</strong><span>盛典与穿搭点评</span></a>
+<a class="channel" href="#latest"><strong>票房数据</strong><span>排片与市场表现</span></a>
+<a class="channel" href="#latest"><strong>海外星闻</strong><span>日韩与欧美动向</span></a>
+<a class="channel" href="#latest"><strong>热搜存档</strong><span>往期榜单回看</span></a>
+<a class="channel" href="#latest"><strong>网友讨论</strong><span>评论区精选观点</span></a>
+</div>
+</section>
+
+<section id="tags" aria-labelledby="tags-title" style="margin-top:44px">
+<div class="section-head">
+<h2 id="tags-title">热门标签云</h2>
+<a href="#tags">按热度排序</a>
+</div>
+<div class="card">
+<div class="tag-cloud">
+<a href="#latest">911吃瓜网</a>
+<a href="#latest">明星黑料爆料</a>
+<a href="#latest">娱乐圈八卦</a>
+<a href="#latest">热搜瓜料</a>
+<a href="#latest">最新猛料</a>
+<a href="#latest">瓜料实锤</a>
+<a href="#latest">顶流动态</a>
+<a href="#latest">剧集路透</a>
+<a href="#latest">换角传闻</a>
+<a href="#latest">综艺阵容</a>
+<a href="#latest">演唱会加场</a>
+<a href="#latest">恋情绯闻</a>
+<a href="#latest">合约纠纷</a>
+<a href="#latest">红毯造型</a>
+<a href="#latest">网红直播</a>
+<a href="#latest">热搜第一</a>
+<a href="#latest">吃瓜专区</a>
+<a href="#latest">每日爆料</a>
+</div>
+</div>
+</section>
+
+</div>
+
+<aside aria-label="侧边栏">
+<div class="card side-card">
+<h2>实时追踪速览</h2>
+<ul class="rank-mini">
+<li><a href="#latest">全网爆料总量</a><span>今日 128 条</span></li>
+<li><a href="#latest">热搜在榜话题</a><span>47 个</span></li>
+<li><a href="#latest">新增实锤线索</a><span>9 条</span></li>
+<li><a href="#latest">网友讨论热度</a><span>持续上升</span></li>
+</ul>
+</div>
+<div class="card side-card">
+<h2>爆料时间线</h2>
+<ul class="rank-mini">
+<li><a href="#latest">09:20 路透图首现</a><span>已核实来源</span></li>
+<li><a href="#latest">11:05 话题登榜</a><span>热度破百万</span></li>
+<li><a href="#latest">14:40 剧组沉默</a><span>等待回应</span></li>
+<li><a href="#latest">18:10 官方未发声</a><span>持续追踪</span></li>
+</ul>
+</div>
+<div class="card side-card">
+<h2>内容声明</h2>
+<p class="notice">本站内容均整理自公开网络渠道与网友公开讨论，仅作资讯聚合与话题梳理之用，不代表对任何事实的确认。涉及个人名誉的信息请以当事人及官方发布为准，若相关内容存在异议，可通过页面底部联系方式反馈处理。</p>
+</div>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+<div class="wrap">
+<div class="footer-top">
+<div class="footer-brand">
+<a class="logo" href="#top"><span class="logo-mark">911</span><span>911<em>吃瓜</em>网</span></a>
+<p>911吃瓜网 · 全网爆料黑料实时追踪入口。每天为你整理娱乐圈热搜瓜料、明星动态与网友热议，理性吃瓜，明辨真伪。</p>
+</div>
+<div class="footer-links">
+<div>
+<h3>内容导航</h3>
+<ul>
+<li><a href="#hot">今日热搜榜</a></li>
+<li><a href="#latest">最新爆料</a></li>
+<li><a href="#channel">分类频道</a></li>
+<li><a href="#tags">热门标签</a></li>
+</ul>
+</div>
+<div>
+<h3>热门频道</h3>
+<ul>
+<li><a href="#channel">明星黑料</a></li>
+<li><a href="#channel">影视爆料</a></li>
+<li><a href="#channel">综艺风向</a></li>
+<li><a href="#channel">网红热点</a></li>
+</ul>
+</div>
+<div>
+<h3>关于本站</h3>
+<ul>
+<li><a href="#top">网站介绍</a></li>
+<li><a href="#tags">标签索引</a></li>
+<li><a href="#latest">内容声明</a></li>
+<li><a href="#top">联系反馈</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="copyright">
+<span>Copyright © 2026 911吃瓜网 All Rights Reserved.</span>
+<span>本站内容整理自公开渠道，仅供资讯交流，理性吃瓜。</span>
+</div>
+</div>
+</footer>
+</body>
+</html>
